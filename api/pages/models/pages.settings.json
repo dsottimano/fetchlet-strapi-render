@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "HTML_title": {
+      "type": "string"
+    },
+    "Page_title": {
+      "type": "string"
+    }
+  }
+}
